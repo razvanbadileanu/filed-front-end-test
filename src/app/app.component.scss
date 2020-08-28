@@ -1,0 +1,31 @@
+@import '../styles';
+
+* {
+    color: $black;
+}
+
+.container {
+    width: $window-size;
+    text-align: center;
+}
+
+.button {
+    border: 1px solid $gray;
+    border-radius: $xs-size;
+    margin: auto;
+    max-width: fit-content;
+    padding: $s-size $m-size;
+}
+
+svg {
+    width: auto;
+    height: $xl-size;
+}
+
+h3 {
+    margin-top: $s-size;
+}
+
+a {
+    padding: $s-size;
+}

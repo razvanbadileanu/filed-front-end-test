@@ -1,0 +1,12 @@
+@import '../../styles';
+
+a {
+    background-color: $gray;
+    border-radius: $xs-size;
+    display: inline-block;
+    padding: $m-size;
+}
+
+a:hover {
+    background-color: $light-gray;
+}

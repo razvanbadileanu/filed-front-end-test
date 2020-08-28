@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+// colors
+$black: #333;
+$gray: rgb(235, 235, 235);
+$light-gray: rgb(243, 243, 243);
+
+// sizes
+$xs-size: .25rem;
+$s-size: .75rem;
+$m-size: 1.25rem;
+$l-size: 1.75rem;
+$xl-size: 3rem;
+
+$window-size: 25rem;
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+}
+
+.pt-3 {
+    padding-top: $m-size;
+}
